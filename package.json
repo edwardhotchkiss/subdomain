@@ -1,0 +1,28 @@
+{
+  "name":"subdomain",
+  "author":"unfolio <hello@unfol.io>",
+  "contributors":[
+    { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" }
+  ],
+  "homepage": "http://github.com/unfolio/subdomain",
+  "description":"",
+  "version":"0.0.1",
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/unfolio/subdomain.git"
+  },
+  "keywords":["express","subdomain","middleware","domain","catch"],
+  "main":"./lib/subdomain",
+  "engines":{
+    "node":">= 0.6.0 < 0.7.0"
+  },
+  "dependencies":{
+  },
+  "bugs":{
+    "url":"https://github.com/unfolio/subdomain/issues"
+  },
+  "licenses":[{
+    "type":"MIT",
+    "url":"http://github.com/unfolio/subdomain/LICENSE"
+  }]
+}
