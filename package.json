@@ -11,7 +11,7 @@
     "type":"git",
     "url":"git://github.com/unfolio/subdomain.git"
   },
-  "keywords":["express","subdomain","middleware","domain","catch"],
+  "keywords":["express","subdomain","middleware","domain"],
   "main":"./lib/subdomain",
   "engines":{
     "node":">= 0.6.0 < 0.7.0"
