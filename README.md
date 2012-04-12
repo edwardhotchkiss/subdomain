@@ -12,10 +12,14 @@ var subdomain = require('subdomain');
 var express = require('express')
   , app = express.createServer();
 
-app.use(subdomain({ base : 'unfol.io', removeWWW : true, forceHTTPS : false }));
+app.use(subdomain({ base : 'mydomain.com', removeWWW : true, forceHTTPS : false }));
 
 app.get('/subdomain/blog/', function(request, response) {
-  response.send({ host : request.host });
+  response.end('<h1>http://blog.mydomain.com/</h1>');
+});
+
+app.get('/hello', function(request, response) {
+  response.end('<h1>http://mydomain.com/hello/</h1>');
 });
 
 app.listen(8000);
