@@ -2,11 +2,12 @@
   "name":"subdomain",
   "author":"unfolio <hello@unfol.io>",
   "contributors":[
-    { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" }
+    { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" },
+    { "name": "Kevin Sakhuja", "email" : "kevin.sakhuja@gmail.com" }
   ],
   "homepage": "http://github.com/unfolio/subdomain",
   "description":"Node.JS Express Subdomain Middleware.",
-  "version":"0.0.1",
+  "version":"0.0.2",
   "repository":{
     "type":"git",
     "url":"git://github.com/unfolio/subdomain.git"
