@@ -1,16 +1,16 @@
 {
   "name":"subdomain",
-  "author":"unfolio <hello@unfol.io>",
+  "author":"Edward Hotchkiss <edwardhotchkiss@me.com>",
   "contributors":[
     { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" },
     { "name": "Kevin Sakhuja", "email" : "kevin.sakhuja@gmail.com" }
   ],
-  "homepage": "http://github.com/unfolio/subdomain",
+  "homepage": "http://github.com/edwardhotchkiss/subdomain",
   "description":"Node.JS Express Subdomain Middleware.",
   "version":"0.0.2",
   "repository":{
     "type":"git",
-    "url":"git://github.com/unfolio/subdomain.git"
+    "url":"git://github.com/edwardhotchkiss/subdomain.git"
   },
   "keywords":["express","subdomain","middleware","domain"],
   "main":"./lib/subdomain",
@@ -20,10 +20,10 @@
   "dependencies":{
   },
   "bugs":{
-    "url":"https://github.com/unfolio/subdomain/issues"
+    "url":"https://github.com/edwardhotchkiss/subdomain/issues"
   },
   "licenses":[{
     "type":"MIT",
-    "url":"http://github.com/unfolio/subdomain/LICENSE"
+    "url":"http://github.com/unfolio/edwardhotchkiss/LICENSE"
   }]
 }
