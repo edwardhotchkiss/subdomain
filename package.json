@@ -5,12 +5,12 @@
     { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" },
     { "name": "Kevin Sakhuja", "email" : "kevin.sakhuja@gmail.com" }
   ],
-  "homepage": "http://github.com/unfolio/subdomain",
+  "homepage": "http://github.com/edwardhotchkiss/subdomain",
   "description":"Node.JS Express Subdomain Middleware.",
   "version":"0.0.3",
   "repository":{
     "type":"git",
-    "url":"git://github.com/unfolio/subdomain.git"
+    "url":"git://github.com/edwardhotchkiss/subdomain.git"
   },
   "keywords":["express","subdomain","middleware","domain"],
   "main":"./lib/subdomain",
