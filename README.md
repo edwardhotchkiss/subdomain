@@ -29,3 +29,6 @@ app.get('/hello', function(request, response) {
 app.listen(8000);
 
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/edwardhotchkiss/subdomain/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
