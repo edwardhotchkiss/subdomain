@@ -1,13 +1,13 @@
 {
   "name":"subdomain",
-  "author":"Edward Hotchkiss <edwardhotchkiss@me.com>",
+  "author":"Edward Hotchkiss <edward@edwardhotchkiss.com>",
   "contributors":[
-    { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" },
+    { "name": "Edward Hotchkiss", "email": "edward@edwardhotchkiss.com" },
     { "name": "Kevin Sakhuja", "email" : "kevin.sakhuja@gmail.com" }
   ],
   "homepage": "http://github.com/edwardhotchkiss/subdomain",
   "description":"Node.JS Express Subdomain Middleware.",
-  "version":"0.1.0",
+  "version":"0.2.0",
   "repository":{
     "type":"git",
     "url":"git://github.com/edwardhotchkiss/subdomain.git"
