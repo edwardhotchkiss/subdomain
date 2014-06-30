@@ -5,6 +5,16 @@
 
 I thought that this was a pretty sweet project [express-subdomain-handler](https://github.com/WilsonPage/express-subdomain-handler) but I wanted it crafted a bit differently for my purposes and the ability to force HTTPS and removal of the unneccessary 'www' prefix. Thanks for the inspiration @WilsonPage
 
+#### /etc/hosts
+
+```bash
+127.0.0.1 localhost
+127.0.0.1 blog.localhost
+127.0.0.1 writing.localhost
+```
+
+#### server
+
 ```javascript
 /**
  *
