@@ -7,7 +7,7 @@
   ],
   "homepage": "http://github.com/edwardhotchkiss/subdomain",
   "description":"Node.js Express Subdomain Middleware.",
-  "version":"0.2.0",
+  "version":"1.0.0",
   "repository":{
     "type":"git",
     "url":"git://github.com/edwardhotchkiss/subdomain.git"
