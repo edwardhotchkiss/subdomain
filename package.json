@@ -6,7 +6,7 @@
     { "name": "Kevin Sakhuja", "email" : "kevin.sakhuja@gmail.com" }
   ],
   "homepage": "http://github.com/edwardhotchkiss/subdomain",
-  "description":"Node.JS Express Subdomain Middleware.",
+  "description":"Node.js Express Subdomain Middleware.",
   "version":"0.2.0",
   "repository":{
     "type":"git",
@@ -15,7 +15,7 @@
   "keywords":["express","subdomain","middleware","domain"],
   "main":"./lib/subdomain",
   "engines":{
-    "node":">= 0.6.0"
+    "node":">= 0.10.x"
   },
   "dependencies":{
   },
