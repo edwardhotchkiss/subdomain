@@ -3,7 +3,8 @@
   "author":"Edward Hotchkiss <edward@edwardhotchkiss.com>",
   "contributors":[
     { "name": "Edward Hotchkiss", "email": "edward@edwardhotchkiss.com" },
-    { "name": "Kevin Sakhuja", "email" : "kevin.sakhuja@gmail.com" }
+    { "name": "Kevin Sakhuja", "email" : "kevin.sakhuja@gmail.com" },
+    { "name": "Jed Dawson", "github": "jeddawson" }
   ],
   "homepage": "http://github.com/edwardhotchkiss/subdomain",
   "description":"Node.js Express Subdomain Middleware.",
