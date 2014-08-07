@@ -50,5 +50,14 @@ app.listen(8000, function() {
 });
 ```
 
+### available options
+
+  * `base` - Required, the base domain name i.e. 'localhost'
+  * `removeWWW` - Defaults to `false`
+  * `ignoreWWW` - Defaults to `false`
+  * `prefix` - Defaults to 'subdomain'
+  * `debug` - Defaults to `false`
+
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/edwardhotchkiss/subdomain/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
