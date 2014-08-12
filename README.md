@@ -31,14 +31,14 @@ var subdomainOptions = {
 app.use(require('subdomain')(subdomainOptions));
 ```
 
-Order matters with express, so make sure you are injecting the middleware before any routes that depend on it.
+*Order matters with express, so make sure you are injecting the middleware before any routes that depend on it.*
 
 Now you can do things like:
 ```javascript
 app.get('/subdomain/:domain/dashboard', function(req, res, next){
   //Show a subdomain specific dashboard.
   //example: customer1.mydomain.com would see their dashboard.
-  res.end(req.params.domain + '.mydomaind: "/dashboard"');
+  res.end(req.params.domain + '.mydomain.com: "/dashboard"');
 });
 ```
 
@@ -51,7 +51,7 @@ app.get('/subdomain/blog/', function(request, response) {
 ```
 
 ## Options
-You can pass any of these options to the function returned by `require('subdomain')`
+You can pass any of these options to the function returned by `require('subdomain')`:
 
 Option      | Default Value    | Description
 ------------|------------------|------------
@@ -67,7 +67,7 @@ I thought that this was a pretty sweet project [express-subdomain-handler](https
 
 Take a look at the [contributors](https://github.com/edwardhotchkiss/subdomain/graphs/contributors) who make this project possible.
 
-## Complet Usage Example
+## Complete Usage Example
 
 #### /etc/hosts
 
