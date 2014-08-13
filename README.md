@@ -20,7 +20,7 @@ npm install subdomain
 Include it in your express app configuration:
 
 ```javascript
-var app,
+var app
   , express = require('express');
 
 app = express();
