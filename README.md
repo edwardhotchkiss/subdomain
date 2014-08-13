@@ -4,12 +4,13 @@
 > Node.js Express Subdomain Middleware.
 
 ## What does it do?
-Subdomain can:
-1. Append the request's subdomain to the path, so express can route it based on the subdomain.
-2. Handle the www subdomain is two special ways:
-  - Remove the www subdomain by redirecting users.
-  - Ignore the www subdomain, routing requests as if no subdomain was used.
-3. Use a path prefix that you supply.
+  Subdomain can: 
+  
+  1. Append the request's subdomain to the path, so express can route it based on the subdomain.
+  2. Handle the www subdomain in two special ways:
+    * Remove the www subdomain by redirecting users.
+    * Ignore the www subdomain, routing requests as if no subdomain was used.
+  3. Use a path prefix that you supply.
 
 ## How do I use it?
 Install it from npm:
